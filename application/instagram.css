@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #262626;
+}
+
+header {
+    background-color: #f09433; 
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+#hero {
+    padding: 50px;
+    font-size: x-large;
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3897f0;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2677c9;
+}
+
+.feature {
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.feature img {
+    width: 100px;
+    height: auto;
+}
+
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    padding: 20px;
+    background-color: #fff; 
+}
+
+.gallery-item {
+    flex: 1; 
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    border-radius: 8px; 
+}
+
+.gallery-item:hover {
+    transform: scale(1.03); 
+}
+
+
+
+
+#gallery {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#testimonials, #faq {
+    background-color: #fafafa;
+    padding: 50px;
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
